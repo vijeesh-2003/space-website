@@ -88,11 +88,50 @@ br.clear {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	max-width:1200px;
+	/* max-width:1200px; */
 }
 
 
 #home{
-	background: #2d2d;
+	background: green;
+	width:100%;
+	height:100vh;
+}
+
+#home h1{
+	width:10%;
 
 }
+#home h1 img{
+	width:100%;
+}
+#home header{
+	display: flex;
+	justify-content: space-between;
+	margin:0;
+	padding:10% 0 7%;
+
+}
+#home nav{}
+
+#home nav ul{
+	display: flex;
+	
+
+}
+
+#home nav ul li{
+	margin-right: 10px ;
+
+
+}
+
+#home nav ul li a{
+	font-family:'OpenSans-Regular';
+	
+}
+#home nav ul li:nth-last-child(){
+	margin:0;
+}
+/* spotlight */
+
